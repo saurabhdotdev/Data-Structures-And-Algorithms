@@ -5,3 +5,12 @@
 | **Insertion/Deletion** | Costly (O(n)) due to shifting elements | Easy (O(1)) if pointer given  |
 | **Memory Usage**       | Fixed size                             | Dynamic, grows as needed      |
 | **Cache Friendliness** | High                                   | Low                           |
+
+
+
+| Feature        | Stack                                             | Queue                                   |
+| -------------- | ------------------------------------------------- | --------------------------------------- |
+| **Order**      | LIFO → Last In First Out                          | FIFO → First In First Out               |
+| **Operations** | push(), pop(), peek()                             | enqueue(), dequeue(), front()           |
+| **Usage**      | Recursion, undo operations, expression evaluation | Scheduling, CPU tasks, request handling |
+| **Examples**   | Browser back button, recursion stack              | Printer queue, OS job queue             |
