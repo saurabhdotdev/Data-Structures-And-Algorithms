@@ -1,0 +1,7 @@
+| Feature                | Array                                  | Linked List                   |
+| ---------------------- | -------------------------------------- | ----------------------------- |
+| **Storage**            | Contiguous memory                      | Non-contiguous memory (nodes) |
+| **Access Time**        | O(1) using index                       | O(n) (linear traversal)       |
+| **Insertion/Deletion** | Costly (O(n)) due to shifting elements | Easy (O(1)) if pointer given  |
+| **Memory Usage**       | Fixed size                             | Dynamic, grows as needed      |
+| **Cache Friendliness** | High                                   | Low                           |
