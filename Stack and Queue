@@ -1,0 +1,40 @@
+class Node {
+    constructor(value) {
+        this.value = value;
+        this.next = null;
+    }
+}
+
+class Stack {
+    constructor() {
+        this.top = null;
+        this.length = 0;
+    }
+
+    push(value) {
+        const newNode = new Node(value);
+        newNode.next = this.top;
+        this.top = newNode;
+        this.length++;
+    }
+
+    pop() {
+        if (!this.top) return null;
+        const popped = this.top;
+        this.top = this.top.next;
+        this.length--;
+        return popped.value;
+    }
+
+    peek() {
+        return this.top ? this.top.value : null;
+    }
+
+    size() {
+        return this.length;
+    }
+
+    isEmpty() {
+        return this.length === 0;
+    }
+}
