@@ -29,3 +29,8 @@ Expected:
 O(n) time due to reindexing
 
 Leads to TLE in large inputs
+
+3)Difference between Circular Queue and Normal Queue?
+
+Key point:
+Circular queue reuses freed space using modulo.
