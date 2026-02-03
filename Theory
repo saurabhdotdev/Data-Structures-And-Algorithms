@@ -14,3 +14,18 @@
 | **Operations** | push(), pop(), peek()                             | enqueue(), dequeue(), front()           |
 | **Usage**      | Recursion, undo operations, expression evaluation | Scheduling, CPU tasks, request handling |
 | **Examples**   | Browser back button, recursion stack              | Printer queue, OS job queue             |
+
+
+1️) Why is Queue preferred over Stack in BFS?
+
+What they test: traversal intuition
+Answer idea:
+Queue preserves level order, stack breaks it.
+
+2️) Why array shift() is bad for queue?
+
+Expected:
+
+O(n) time due to reindexing
+
+Leads to TLE in large inputs
